@@ -1,3 +1,3 @@
 # MyBlog
 
-xixilili.cn
+[My blog's main page: xixilili.cn](xixilili.cn)

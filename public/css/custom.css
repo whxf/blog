@@ -1,0 +1,7 @@
+.splash {
+    padding: 6em 0 6em;
+    background: #89C0AE;
+    background: linear-gradient(145deg, #89C0AE 50%, #89C0E6 100%);
+    color: #fff;
+    text-align: center
+}
