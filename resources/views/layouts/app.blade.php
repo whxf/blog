@@ -84,7 +84,7 @@
     </div>
 
     <div class="card-footer">
-        <p class="text-center">© 2018-2018 Powered By Li Xi | 京ICP备18022911号</p>
+        <p class="text-center">© 2018-2019 Powered By Li Xi | 京ICP备18022911号</p>
     </div>
 </body>
 </html>

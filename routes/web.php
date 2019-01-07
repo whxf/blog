@@ -11,8 +11,28 @@
 |
 */
 
+use Illuminate\Http\Request;
+
 Route::get('/', function () {
     return view('child');
+});
+
+Route::get('/foo', function (Request $request) {
+    dd(['get' => $request->all()]);
+
+    return view('child');
+});
+
+Route::post('/foo', function (Request $request) {
+    $a = $request->input('a');
+    $b = $request->input('b');
+
+    $a = intval($a);
+    $b = intval($b);
+
+    return [
+        'sum' => $a + $b,
+    ];
 });
 
 Route::get('/task', 'TaskController@home');
