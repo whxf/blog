@@ -1,3 +1,4 @@
 # MyBlog
 
-[Home Page](xixilili.cn)
+www.xixilili.cn
+
